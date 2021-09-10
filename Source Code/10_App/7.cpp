@@ -1,7 +1,7 @@
-7.
-Problem: Given a 2-dimensional array of size n*n containing positive integers. Rearrange the elements of the matrix in the zigzag direction.
-Solution: Implement the function to sort the matrix elements row by row: sort the elements on the even rows ascending from left to right and the elements on the odd rows ascending from right to left. Then, perform the function to sort the elements on each column: in ascending order from top to bottom. Repeat the above 2 functions consecutively n times, we will get the required matrix.
-Code: 
+// 7.
+// Problem: Given a 2-dimensional array of size n*n containing positive integers. Rearrange the elements of the matrix in the zigzag direction.
+// Solution: Implement the function to sort the matrix elements row by row: sort the elements on the even rows ascending from left to right and the elements on the odd rows ascending from right to left. Then, perform the function to sort the elements on each column: in ascending order from top to bottom. Repeat the above 2 functions consecutively n times, we will get the required matrix.
+// Code: 
 #include <iostream>
 #include <ctime>
 

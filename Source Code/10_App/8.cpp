@@ -1,7 +1,7 @@
-8.
-Problem: Find the present age of n people. Find the largest and smallest number of ages without sorting.
-Solution: Build a binary search tree, find the last leaf on the left branch and the last leaf on the right branch corresponding to the minimum and maximum age to find.
-Code:
+// 8.
+// Problem: Find the present age of n people. Find the largest and smallest number of ages without sorting.
+// Solution: Build a binary search tree, find the last leaf on the left branch and the last leaf on the right branch corresponding to the minimum and maximum age to find.
+// Code:
 #include <iostream>
 #include <ctime>
 

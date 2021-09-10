@@ -1,7 +1,7 @@
-2.
-Problem: Make a list of names of n students in class
-Solution: Use a linked list to create data containing each student's name and make a list of student names according to the saved data.
-Code:
+// 2.
+// Problem: Make a list of names of n students in class
+// Solution: Use a linked list to create data containing each student's name and make a list of student names according to the saved data.
+// Code:
 #include <iostream>
 #include <string>
 

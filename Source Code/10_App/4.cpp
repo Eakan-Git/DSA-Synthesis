@@ -1,7 +1,7 @@
-4.
-Problem: A supermarket checkout counter serves more than n people per day. Write a chapter that makes payments to each person and calculates the total proceeds, knowing the value-added tax is 10%.
-Solution: Due to the supermarket's payment method, "first in, first out". Therefore, we create a queue with 3 operations adding n elements, taking n elements out and checking if the queue is empty (full of people)
-Code:
+// 4.
+// Problem: A supermarket checkout counter serves more than n people per day. Write a chapter that makes payments to each person and calculates the total proceeds, knowing the value-added tax is 10%.
+// Solution: Due to the supermarket's payment method, "first in, first out". Therefore, we create a queue with 3 operations adding n elements, taking n elements out and checking if the queue is empty (full of people)
+// Code:
 #include <iostream>
 #include <ctime>
 

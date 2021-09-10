@@ -1,7 +1,7 @@
-1. 
-Problem: Choose a seat for 1 student in a class of M * N positions (excluding the teacher's desk).
-Solution: Make a 2D array M*N. Mark positions with people (in code: equal to 1), empty positions (in code: equal to 0). Based on the matrix, enter the row and column of the empty position to determine student seating.
-Code: 
+// 1. 
+// Problem: Choose a seat for 1 student in a class of M * N positions (excluding the teacher's desk).
+// Solution: Make a 2D array M*N. Mark positions with people (in code: equal to 1), empty positions (in code: equal to 0). Based on the matrix, enter the row and column of the empty position to determine student seating.
+// Code: 
 #include <iostream>
 #include <cstdlib>
 #include <ctime>

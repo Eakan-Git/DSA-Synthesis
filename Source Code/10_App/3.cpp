@@ -1,7 +1,7 @@
-3.
-Problem: Load n bullets into a shotgun, firing m consecutively (m<=n). Is the gun still ammo?
-Solution: Each loaded bullet will be pushed to the bottom and the first loaded bullet must be the last to be fired. Therefore, we number each bullet and make a stack with 3 main operations: add an element to the top, get an element from the top of the stack and check if the stack is empty or not.
-Code:
+// 3.
+// Problem: Load n bullets into a shotgun, firing m consecutively (m<=n). Is the gun still ammo?
+// Solution: Each loaded bullet will be pushed to the bottom and the first loaded bullet must be the last to be fired. Therefore, we number each bullet and make a stack with 3 main operations: add an element to the top, get an element from the top of the stack and check if the stack is empty or not.
+// Code:
 #include <iostream>
 
 using namespace std;

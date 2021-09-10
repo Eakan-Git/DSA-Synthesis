@@ -1,7 +1,7 @@
-9.
-Problem: Given a matrix of numbers n*n (n<=6) containing numbers from 1 to 100. Looking at it once, can you win by entering perfectly n*n numbers in the matrix?
-Solution: Make a matrix n*n, use the search algorithm to see if the input matches the array to look for
-Code:
+// 9.
+// Problem: Given a matrix of numbers n*n (n<=6) containing numbers from 1 to 100. Looking at it once, can you win by entering perfectly n*n numbers in the matrix?
+// Solution: Make a matrix n*n, use the search algorithm to see if the input matches the array to look for
+// Code:
 #include <iostream>
 #include <ctime>
 

@@ -1,7 +1,7 @@
-10.
-Problem: From a graph with n vertices and only clear paths between connected vertices, create an adjacency matrix with n*n elements representing the graph and enter any two vertices, ask if those two vertices are related. communicate with each other or not?
-Solution: Make a matrix n*n. Set element value (i,j)= 0 when there is no connecting path from (i+1) to (j+1) and vice versa equal to 1 if there is a direct path from (i+1) to (j) +1). From the matrix, traverse the position of the two entered vertices and check if they are connected (the input value (i,j) is 0 or 1)
-Code:
+// 10.
+// Problem: From a graph with n vertices and only clear paths between connected vertices, create an adjacency matrix with n*n elements representing the graph and enter any two vertices, ask if those two vertices are related. communicate with each other or not?
+// Solution: Make a matrix n*n. Set element value (i,j)= 0 when there is no connecting path from (i+1) to (j+1) and vice versa equal to 1 if there is a direct path from (i+1) to (j) +1). From the matrix, traverse the position of the two entered vertices and check if they are connected (the input value (i,j) is 0 or 1)
+// Code:
 #include <iostream>
 
 using namespace std;

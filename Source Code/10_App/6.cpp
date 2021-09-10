@@ -1,7 +1,7 @@
-6.
-Problem: Make a diagram of an exam room with 28 seats (8 rows, 4 columns) according to the number of each student and in the direction from small to large so that the student with the smallest number is sitting in the left corner of the first row. and the next number is to the right of the student with the smallest number, and so on until the last place (sorted from left to right, top to bottom)
-Solution: Make a 2-dimensional array of 8 rows, 4 columns and implement the Selection Sort algorithm to select the student with the smallest number to be placed in the first element of the array, do the same until the last element.
-Code:
+// 6.
+// Problem: Make a diagram of an exam room with 28 seats (8 rows, 4 columns) according to the number of each student and in the direction from small to large so that the student with the smallest number is sitting in the left corner of the first row. and the next number is to the right of the student with the smallest number, and so on until the last place (sorted from left to right, top to bottom)
+// Solution: Make a 2-dimensional array of 8 rows, 4 columns and implement the Selection Sort algorithm to select the student with the smallest number to be placed in the first element of the array, do the same until the last element.
+// Code:
 #include <iostream>
 #include <ctime>
 

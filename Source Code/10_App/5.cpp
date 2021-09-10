@@ -1,7 +1,7 @@
-5.
-Problem: Put n people in a row in order from highest to lowest by the 2 people in front swap with the person behind if taller and repeat until the row is complete. Count the number of items needed to complete the order as required.
-Solution: Implement bubble sort algorithm in order from smallest to largest for n arrays containing height information of each person.
-Code:
+// 5.
+// Problem: Put n people in a row in order from highest to lowest by the 2 people in front swap with the person behind if taller and repeat until the row is complete. Count the number of items needed to complete the order as required.
+// Solution: Implement bubble sort algorithm in order from smallest to largest for n arrays containing height information of each person.
+// Code:
 #include <iostream>
 #include <ctime>
 
