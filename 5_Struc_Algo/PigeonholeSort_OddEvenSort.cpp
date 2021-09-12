@@ -1,6 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+void printArray(int arr[], int n)
+{
+   for (int i = 0; i < n; i++)
+       cout << arr[i] << " ";
+   cout << "\n";
+}
+
 void pigeonholeSort(int arr[], int n)
 {
 	// Find min and max
@@ -13,7 +20,9 @@ void pigeonholeSort(int arr[], int n)
 			max = arr[i];
 	}
 	int range = max - min + 1; // Find range
- 
+ 	cout << "Min = " << min << endl;
+ 	cout << "Max = " << max << endl;
+ 	cout << "Number of pigeonholes = " << range << endl;
 	// Create holes that
 	// are going to contain matching elements.
 	vector<int> holes[range];
@@ -21,7 +30,7 @@ void pigeonholeSort(int arr[], int n)
 	// Put every element in its respective hole
 	for (int i = 0; i < n; i++)
 		holes[arr[i]-min].push_back(arr[i]);
- 
+ 	
 	// Traverse through all holes one by one. 
 	// For every hole, take its elements and put in array
 	int index = 0;  // index in sorted array
@@ -40,34 +49,36 @@ void oddEvenSort(int arr[], int n)
 	{
 		isSorted = true;
 		// Bubble sort on odd indexed element
+		cout << "\nOdd:\n";
 		for (int i = 1; i <= n - 2; i += 2)
 		{
 			if (arr[i] > arr[i+1])
 			 {
+			 	cout << "arr[" << i << "] > arr[" << i+1 << "]: ";
+			 	cout << arr[i] << " > " << arr[i+1] << endl;
 				swap(arr[i], arr[i+1]);
 				isSorted = false;
 			  }
 		}
-
+		printArray(arr, n);
+		cout << "\nEven:\n";
 		// Bubble sort on even indexed element
 		for (int i = 0; i <= n - 2; i += 2)
 		{
 			if (arr[i] > arr[i+1])
 			{
+				cout << "arr[" << i << "] > arr[" << i+1 << "]: ";
+				cout << arr[i] << " > " << arr[i+1] << endl;
 				swap(arr[i], arr[i+1]);
 				isSorted = false;
 			}
 		}
+		printArray(arr, n);
 	}
 	return;
 }
 
-void printArray(int arr[], int n)
-{
-   for (int i = 0; i < n; i++)
-       cout << arr[i] << " ";
-   cout << "\n";
-}
+
 
 int main()
 {
@@ -79,7 +90,7 @@ int main()
 	pigeonholeSort(arr, n);
 	cout << "Sorted array: ";
 	printArray(arr, n);
-
+	system("pause");
   	cout << "\n\nOdd-Even Sort:\n";
  	int arr2[] = {5, 1, 12, 55, 12, 0, 6, 19, 77, 3};
 	n = sizeof(arr)/sizeof(arr[0]);
